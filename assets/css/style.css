@@ -1,0 +1,87 @@
+.world {
+  background-image: url("../../img/left.png");
+  height: 710px;
+  background-size: cover;
+  background-position: center; }
+  .world h1, .world p {
+    color: white;
+    font-size: 67px;
+    padding-top: 131px;
+    width: 252px;
+    height: 286px;
+    margin-left: 135px; }
+  .world p {
+    font-size: 14px;
+    padding-top: 0; }
+  .world h2 {
+    color: white;
+    margin-top: -167px;
+    margin-left: 179px; }
+
+.register {
+  margin-bottom: 50px; }
+  .register h1, .register .world p, .world .register p {
+    font-weight: bold;
+    font-size: 27px; }
+  .register span {
+    color: blue; }
+
+.form {
+  margin-bottom: 60px; }
+  .form .form-group {
+    margin: 0; }
+    .form .form-group input {
+      border: none;
+      width: 300px;
+      outline: none; }
+  .form hr {
+    margin-top: 0; }
+
+.check {
+  margin-bottom: 40px; }
+  .check input[type=checkbox] {
+    margin-right: 14px; }
+
+.danger button {
+  background-color: #f82c65;
+  color: white;
+  border: none;
+  padding: 12px 60px;
+  border-radius: 22px;
+  font-size: 18px;
+  box-shadow: 1px 3px 34px #e75252;
+  float: right;
+  margin-bottom: 50px; }
+
+.login h5 {
+  padding-top: 62px;
+  margin-bottom: 30px;
+  color: #8d8a8a; }
+.login .face, .login .twit, .login .goo {
+  background-color: #245498;
+  color: white;
+  border-radius: 40px;
+  width: 130px;
+  height: 42px;
+  font-size: 17px;
+  border: none;
+  margin-right: 39px;
+  margin-bottom: 50px; }
+  .login .face i, .login .twit i, .login .goo i {
+    font-size: 20px; }
+  .login .face p, .login .twit p, .login .goo p {
+    display: inline;
+    padding-left: 13px; }
+.login .twit {
+  background-color: #1ca0f1; }
+.login .goo {
+  background-color: #e04f00; }
+  .login .goo i {
+    font-size: 21px; }
+  .login .goo p {
+    padding-left: 12px; }
+
+.account {
+  margin-left: 40px; }
+
+/*# sourceMappingURL=style.css.map */

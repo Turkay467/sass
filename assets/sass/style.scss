@@ -1,0 +1,135 @@
+// colors
+$bl:black;
+$wh:white;
+$bu:blue;
+$pink:#f82c65;
+$brown:#e75252;
+$dark:#245498;
+$dog:#1ca0f1;
+$orange:#e04f00;
+//fonts
+
+
+
+
+.world {
+    background-image:url("../../img/left.png");
+    height: 710px;
+    background-size: cover;
+    background-position: center;
+
+    h1{
+        color:$wh;
+        font-size:67px;
+        padding-top: 131px;
+        width: 252px;
+        height: 286px;
+        margin-left: 135px
+    }
+    p{
+        @extend h1;
+        font-size:14px;
+        padding-top:0;
+    }
+    h2{
+        color: $wh;
+        margin-top: -167px;
+        margin-left: 179px;
+    }
+}
+.register{
+    margin-bottom:50px;
+    h1{
+        font-weight:bold;
+        font-size:27px;
+    }
+    span{
+        color:$bu;
+    } 
+}
+.form {
+    margin-bottom:60px;
+.form-group{
+    margin: 0;
+    input{
+        border:none;
+        width:300px;
+        outline:none;
+    
+        // input[type="password"] :placeholder{
+        //     font-size:60px;
+        // }
+
+        
+     }
+}
+hr{
+    margin-top: 0 ;
+ }
+    
+}
+.check{
+    margin-bottom:40px;
+    input[type=checkbox]{
+        margin-right: 14px;
+    }
+}
+.danger{
+    
+    button{
+      background-color: $pink;
+      color:$wh;
+      border: none;
+      padding: 12px 60px;
+      border-radius: 22px;
+      font-size: 18px;
+      box-shadow:1px 3px 34px $brown;
+      float: right;
+      margin-bottom:50px;
+    }
+}
+.login {
+    h5{
+        padding-top: 62px;
+        margin-bottom: 30px;
+        color:rgb(141, 138, 138);
+    }
+
+    .face{
+     background-color:$dark;
+     color: white;
+    border-radius: 40px;
+    width: 130px;
+    height: 42px;
+    font-size: 17px;
+    border: none;
+    margin-right: 39px;
+    margin-bottom: 50px; 
+    i{
+        font-size:20px;
+    }   
+    p{
+        display:inline;
+        padding-left: 13px;
+    }
+    }
+    .twit {
+        @extend .face;
+        background-color:$dog;
+    }
+    .goo {
+        @extend .face;
+        background-color: $orange;
+        i{
+            font-size:21px;
+        }
+    
+        p{
+            padding-left:12px;
+        }
+    }
+}
+
+.account{
+    margin-left:40px;
+}
